@@ -1,4 +1,5 @@
 import React from 'react'; //usar todo el poder de react
+import '../stylesheet/Testimony.css'
 
 //definimos mi componente
 
@@ -12,7 +13,7 @@ function Testimony(){
       <div className='container-text-testimony'>
         <p className='name-testimony'> Emma Bostian en Suecia </p>
         <p className='position-testimony'> Ingeniera de Software en Spotify</p>
-        <p className='text-testimony>'> Soy crack negri </p>
+        <p className='text-testimony'> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." </p>
       </div> 
     
     </div> 
