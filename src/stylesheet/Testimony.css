@@ -40,26 +40,34 @@
     text-align: justify;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1000px) {
     .container-testimony {
-    width: 100%;
-    height: auto;
-    flex-wrap: wrap;
-    font-size: 10px;
-
-
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        font-size: 2rem;
     }
+
     .container-text-testimony{
         width: auto;
         padding: 0;
     }
     .img-testimony {
-    max-width: 100%;
-    height: auto;
+        max-width: 100%;
+        height: auto;
     }
     .text-testimony {
-    font-size: 0.8rem;
-    text-align: justify;
+        font-size: 1rem;
+        text-align: justify;
     
     }
+}
+
+@media (max-width: 600px) {
+    .text-testimony {
+        font-size: 0.8rem;
+        text-align: justify;
+    
+    }
+  
 }

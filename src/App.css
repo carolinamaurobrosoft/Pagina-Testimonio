@@ -35,7 +35,7 @@ h1 {
   justify-content: center;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1000px) {
   .main-container{
     min-height: 300px;
     flex-wrap: wrap;
@@ -43,8 +43,6 @@ h1 {
   }
   h1 {
     font-size: 2em;
-
-  }
-  
-  
+  } 
 }
+
