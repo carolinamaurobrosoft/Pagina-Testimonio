@@ -3,17 +3,17 @@ import '../stylesheet/Testimony.css'
 
 //definimos mi componente
 
-function Testimony(){
+function Testimony(props){
   return ( //describir la estructura de mi componente
     <div className='container-testimony'> 
       <img 
         className='img-testimony'
-        src={require('../images/persona1-testimony.jpg')}
+        src={require(`../images/${props.image}-testimony.jpg`)}
         alt = 'Foto de Persona1'/>
       <div className='container-text-testimony'>
-        <p className='name-testimony'> Emma Bostian en Suecia </p>
-        <p className='position-testimony'> Ingeniera de Software en Spotify</p>
-        <p className='text-testimony'> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." </p>
+        <p className='name-testimony'> <strong> {props.name} </strong>  en {props.country} </p>
+        <p className='position-testimony'> {props.position} en <strong> {props.company} </strong></p>
+        <p className='text-testimony'> "{props.testimony}" </p>
       </div> 
     
     </div> 
