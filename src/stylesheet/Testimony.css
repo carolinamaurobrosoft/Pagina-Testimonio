@@ -39,3 +39,27 @@
     font-size: 1.1rem;
     text-align: justify;
 }
+
+@media (max-width: 480px) {
+    .container-testimony {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    font-size: 10px;
+
+
+    }
+    .container-text-testimony{
+        width: auto;
+        padding: 0;
+    }
+    .img-testimony {
+    max-width: 100%;
+    height: auto;
+    }
+    .text-testimony {
+    font-size: 0.8rem;
+    text-align: justify;
+    
+    }
+}

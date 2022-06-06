@@ -34,3 +34,17 @@ h1 {
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 480px) {
+  .main-container{
+    min-height: 300px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  h1 {
+    font-size: 2em;
+
+  }
+  
+  
+}
